@@ -5,6 +5,8 @@ public class SU_27 extends Plane implements SpecialOpportunity{
 	private int maxSpeed = 2500;
 	private String planeColor = "Silver";
 	
+	PlaneControl plane = new PlaneControl();
+	
 	
 	public void setMaxSpeed(int maxSpeed) {
 		this.maxSpeed = maxSpeed;

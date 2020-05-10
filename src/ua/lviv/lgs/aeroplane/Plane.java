@@ -7,7 +7,7 @@ public abstract class Plane {
 	private int planeWeight = 16300;
 
 
-	PlaneControl plane = new PlaneControl();
+	
 
 	void engineLaunch() {
 		int intime = (int) (22 + Math.random() * 66);
